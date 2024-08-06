@@ -1,3 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #0f1b4c;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
 .content{
     width: 1500px;
     max-width: calc(100% - 48px);
@@ -37,4 +59,8 @@
 .nav-item a{
     font-size: 17px;
     color: black;
+}
+
+.nav-item a:hover{
+    border-bottom: 3px solid blue;
 }
