@@ -1,11 +1,17 @@
 import './App.css';
 import './Reset.css';
+import Content from './components/Content';
+import Footer from './components/Footer';
 import Header from './components/Header';
 
 
 function App() {
   return (
-    <Header/>
+    <>
+      <Header/>
+      <Content/>
+      <Footer/>
+    </>
   );
 }
 
