@@ -1,0 +1,45 @@
+
+.content{
+    width: 1500px;
+    max-width: calc(100% - 48px);
+    margin-left: 128px;
+    margin-right: 128px;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+}
+
+.nav-bar{
+    display: flex;
+}
+
+.nav{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-Messenger{
+    display: inline-block;
+}
+
+.nav-father{
+    margin-left: 300px;
+}
+
+.nav-item{
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+
+.nav-item a{
+    font-size: 17px;
+    color: black;
+}
+
+.nav-item a:hover{
+    border-bottom: 3px solid blue;
+}

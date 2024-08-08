@@ -1,4 +1,5 @@
 import logo from './images/logo_messenger.png';
+import './Header.css';
 
 function Header(){
     return (
