@@ -1,0 +1,16 @@
+.content{
+    width: 1500px;
+    max-width: calc(100% - 48px);
+    margin-left: 128px;
+    margin-right: 128px;
+}
+.Footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+.meta-img{
+    width: 150px;
+    height: 50px;
+}

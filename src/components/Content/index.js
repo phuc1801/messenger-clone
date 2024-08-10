@@ -1,5 +1,5 @@
 import microsoft from './images/microsoft.png';
-import appstore from './images/app_store.png';
+import appstore from './images/apple.svg';
 import contentChat from './images/content_chat.png';
 import './Content.css';
 
@@ -24,12 +24,12 @@ function Content(){
                                 <label>Duy trì đăng nhập</label>
                             </div>
                             <div>
-                                <img src={appstore} alt="appstore" className='content-img'></img>
-                                <img src={microsoft} alt="microsoft" className='content-img'></img>           
+                                <img src={appstore} alt="appstore" className='content-img1'></img>
+                                <img src={microsoft} alt="microsoft" className='content-img2'></img>           
                             </div>
                         </div>
                         <div className="right-content">
-                            <img src={contentChat} alt="contentChat" className='content-img2'></img>
+                            <img src={contentChat} alt="contentChat" className='content-imgMain'></img>
                         </div>
                     </div>
                 </div>
