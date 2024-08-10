@@ -9,7 +9,7 @@ function Content(){
             <main className='main'>
                 <div className="content">
                     <div className='main-content'>
-                        <div className="left-content">
+                        <div className="content-child">
                             <h1 className='content-title'>Tụ họp <br/>
                             mọi lúc, mọi nơi</h1>
                             <p>Với Messenger, việc kết nối với những người thân yêu thật đơn giản và thú vị.</p>
@@ -28,7 +28,7 @@ function Content(){
                                 <img src={microsoft} alt="microsoft" className='content-img2'></img>           
                             </div>
                         </div>
-                        <div className="right-content">
+                        <div className="content-child">
                             <img src={contentChat} alt="contentChat" className='content-imgMain'></img>
                         </div>
                     </div>
